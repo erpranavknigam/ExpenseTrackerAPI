@@ -63,8 +63,9 @@ exports.login = async (req, res) => {
                     const token = jsonwebtoken.sign({ userId: user._id }, KEY, { expiresIn: '1h' })
                     // console.log(token)
                     return res.status(200).json({
-                        message: "User Created Successfully",
-                        token: token
+                        message: "User Logged in  Successfully",
+                        token: token,
+                        user: user
                     })
                 }
             }
