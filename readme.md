@@ -2,6 +2,18 @@
 
 -----------------------------------------------------------
 
+## Project URL
+[![Project Page](https://img.shields.io/badge/Project%20Page-Click%20Here-brightgreen)](https://roadmap.sh/projects/expense-tracker-api)
+
+## Navigation
+- [Overview](#overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Running the Application](#running-the-application)
+- [API Endpoints](#api-endpoints)
+- [Packages Used](#packages-used)
+
 ## Overview
 
 The Expense Tracker API is a RESTful API built with Express.js and MongoDB that allows users to manage their expenses. Users can sign up, log in, and perform CRUD operations on their expenses, including creating, updating, deleting, and fetching expenses with various filters.
